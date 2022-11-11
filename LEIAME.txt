@@ -1,0 +1,12 @@
+Esse projeto foi realizado em Java1.8 e utiliza Maven para gerenciamento de dependências. 
+
+Para realizar rodar o projeto no Eclipse siga os seguintes passos: 
+ - Se ainda não possuir, baixe o Eclipse Oxygen.3a Release (4.7.3a) em https://www.eclipse.org
+ - Abra o Eclise 
+ - Baixe o arquivo em uma pasta local e descompacte na pasta do workspace
+ - Na aba Package Explorer, clique com o botão direito e selecione "Import" 
+ - Selecione a opção "Existing Projects into Workspace"
+ - Selecione a pasta do projeto e finalize
+ - Atualize as dependências do Maven caso não tenha baixado automaticamente
+ - Execute o script de criação das tabelas disponível no "project_game.sql"; Por padrão a aplicação está utilizando usuário "root" e password "" (vazio)
+ - Para rodar a aplicação selecione o projeto, botão direito, selecione "Run as -> Java Aplication" e por fim clique na classe InitGameView" 
